@@ -1,0 +1,500 @@
+  112  git revert e356239bf1bcd3cc1c039ebc948bd5768cc6dd23
+  113  cat hexagon.html 
+  114  git status
+  115  git push test master
+  116  ssh
+  117  ssh -u vagrant 10.0.0.5
+  118  ssh vagrant@10.0.0.5
+  119  cat hexagon.html 
+  120  vi hexagon.html 
+  121  git add hexagon.html 
+  122  git commit -m "my final version"
+  123  git push test master
+  124  git pull test master
+  125  vi hexagon.html 
+  126  git status
+  127  git add hexagon.html 
+  128  git commit -m "approved version"
+  129  git push test master
+  130  git pull test master
+  131  cat hexagon.html 
+  132  git branch
+  133  git status
+  134  git log
+  135  git checkout  dev
+  136  git checkout  dev_b
+  137  git checkout -b dev_b
+  138  git branch
+  139  status
+  140  git status
+  141  git log
+  142  cat hexagon.html 
+  143  git checkout master
+  144  git brach
+  145  git branch
+  146  git checkout dev_b
+  147  git branch
+  148  git branch -m dev_b preprod
+  149  git branch
+  150  vi mycode
+  151  git status
+  152  git add mycode 
+  153  git commit -m "v1"
+  154  git status
+  155  git branch
+  156  git checkout master
+  157  ls
+  158  git checkout preprod
+  159  ls
+  160  git checkout master
+  161  git merge preprod
+  162  ls
+  163  git checkout preprod 
+  164  git push test preprod
+  165  git status -s
+  166  git status -s
+  167  git checkout master
+  168  git status -s
+  169  git status
+  170  vi mycode 
+  171  git status -s
+  172  git add mycode 
+  173  git status -s
+  174  git commit -m "v3"
+  175  git status -s
+  176  ls
+  177  git reflog -p hexagon.html
+  178  git status
+  179  git log 
+  180  git relog -s
+  181  git relog -p
+  182  git reflog  -s
+  183  git relog -p hexagon.html
+  184  git reflog  -s hexagon.html
+  185  cat hexagon.html 
+  186  git reflog  -s hexagon.html
+  187  get log hexagon.html 
+  188  geit log hexagon.html 
+  189  git log hexagon.html 
+  190  git reset e356239bf1bcd3cc1c039ebc948bd5768cc6dd23 
+  191  cat hexagon.html 
+  192  cat hexagon.html 
+  193  git status
+  194  git add *
+  195  git commit -m "new version"
+  196  git log hexagon.html 
+  197  git reset cbb9694642cb1154335b048b18407d8e438b1f5c
+  198  cat hexagon.html 
+  199  cat hexagon.html 
+  200  git reset --hard cbb9694642cb1154335b048b18407d8e438b1f5c
+  201  cat hexagon.html 
+  202  git log --oneline hexagon.html
+  203  git log
+  204  git log hexagon.html
+  205  git reflog  -s hexagon.html
+  206  git reset --hard 30b7c8b
+  207  git reflog  -s hexagon.html
+  208  cat hexagon.html 
+  209  git reflog  -s hexagon.html
+  210  git branch 
+  211  git checkout -b bugnfix
+  212  vi fix.yaml
+  213  git status
+  214  git add *
+  215  git commit  -m "v1"
+  216  git status
+  217  ls
+  218  git checkout preprod 
+  219  ls
+  220  git merge bugfix
+  221  git merge bugnfix
+  222  ls
+  223  vi fix.yaml 
+  224  vi mycode 
+  225  vi mycode 
+  226  vi mycode 
+  227  git status
+  228  git add mycode 
+  229  git commit -m "final"
+  230  history  > 10102018
+  231  pwd
+  232  git branch
+  233  git remote -v
+  234  git status
+  235  git add *
+  236  git commit -m "v1"
+  237  git log
+  238  git log -s
+  239  git reflog -s
+  240  git tag --help
+  241  git tag -l
+  242  git tag -a "This release one of the code" -m "code v1" HEAD
+  243  git tag -a "This release one of the code" -m "code v1" HEAD test1
+  244  git tag -a "This release one of the code"  HEAD test1
+  245  git tag -a "This release one of the code"  
+  246  git tag -l
+  247  git tag test1 HEAD
+  248  git tag -l
+  249  git reflog -s
+  250  git remote -v
+  251  git push test tag
+  252  git push test tag test1
+  253  git tag -l
+  254  git push test preprod
+  255  git tag release1
+  256  git push test tag release1
+  257  cat > demo1
+  258  git add *
+  259  git commit -m "v1"
+  260  git push test preprod
+  261  git tag code_1 -a "This is my new code"
+  262  git tag code_1 -a 'This is my new code'
+  263  git tag code_1 -m 'This is my new code'
+  264  git tag -l
+  265  git show release1
+  266  git tag -l
+  267  git push tag release1
+  268  git push tag test release1
+  269  git push  tag  test release1
+  270  git push test tag  release1
+  271  git tag -l
+  272  git tag ajay -m "test"
+  273  git tag -l
+  274  git tag ajay HEAD
+  275  git tag -l
+  276  git tag test1 HEAD
+  277  git tag  -l
+  278  git tag  --help
+  279  git reflog -s
+  280  history | grep code_1
+  281  git tag -l
+  282  git reflog -s
+  283  git tag -l
+  284  cat > 2
+  285  git add *
+  286  git commit -m "this is test"
+  287  git reflog  -s
+  288  git tag version_1 -m "This test tag"
+  289  git reflog  -s
+  290  git tag 846de3e
+  291  git tag version_1 -c f46e44d
+  292  git tag --help
+  293  git reflog  -s
+  294  #git push test tag  release1
+  295  #git push test master tag  release1 
+  296  git satus
+  297  git status
+  298  cat > foo.rb
+  299  git status
+  300  git stash 
+  301  git add foo.rb 
+  302  git commit -m "test version"
+  303  git stash 
+  304  git status
+  305  vi foo.rb 
+  306  git status
+  307  git stash 
+  308  git stash list
+  309  git status
+  310  git show stash@{0}
+  311  touch abc
+  312  git status
+  313  git add abc 
+  314  git commit -m "abc test"
+  315  git status
+  316  git stash list
+  317  git stash pop stash@{0}
+  318  git status
+  319  vi foo.rb 
+  320  git add foo.rb 
+  321  git commit -m "final ver"
+  322  git status
+  323  touch xzy
+  324  git status
+  325  touch  421
+  326  git status
+  327  git add *
+  328  git commit -m "test commit"
+  329  vi 421 
+  330  vi xzy 
+  331  git status
+  332  git stash 
+  333  git stash list
+  334  vi text.text
+  335  git add text.text 
+  336  git commit -m "test"
+  337  git stash 
+  338  vi text.text 
+  339  git status
+  340  git stash 
+  341  git stash  list
+  342  git stash clear
+  343  git stash  list
+  344  git status
+  345  git status
+  346  ls
+  347  git checkout master
+  348  ls
+  349  git log 
+  350  ls
+  351  git log  --oneline
+  352  git rebase preprod
+  353  git log  --oneline
+  354  pwd
+  355  cd /d/git_batch_26_11/
+  356  pwd
+  357  ls
+  358  vi index.html
+  359  ls
+  360  git init
+  361  ls -a
+  362  cd .git/
+  363  ls
+  364  cd ..
+  365  pwd
+  366  git status
+  367  git  add -A
+  368  git status
+  369  git commit -m "v1.0" 
+  370  git status
+  371  ls
+  372  ls
+  373  vi index.html 
+  374  ls
+  375  git status
+  376  cat index.html 
+  377  git diff index.html
+  378  git diff --staged index.html
+  379  git diff --staged index.html
+  380  git diff index.html
+  381  git add index.html 
+  382  git diff index.html
+  383  git diff --staged index.html
+  384  git diff index.html
+  385  git commit -m "v1.1"
+  386  git status
+  387  git diff index.html
+  388  git diff --staged index.html
+  389  vi index.html 
+  390  git diff index.html
+  391  git add -A
+  392  git diff index.html
+  393  git diff --staged index.html
+  394  git commit -m "v1.2"
+  395  git status
+  396  vi new.txt
+  397  git status
+  398  git add new.txt 
+  399  git status
+  400  git commit -m "this is my first commit"
+  401  git status
+  402  vi index.html 
+  403  vi index.html 
+  404  ls
+  405  git config --global user.name "ajay"
+  406  git config --global user.email "ajay@demo.local"
+  407  git config --list
+  408  git log
+  409  cat index.html 
+  410  cd /d/batch_26_11/
+  411  git sattsu
+  412  git status
+  413  pwd
+  414  cd ..
+  415  cd git_batch_26_11/
+  416  git status
+  417  git rebase --edit-todo
+  418  git rebase --edit-todo
+  419  git status
+  420  git rebase --continue
+  421  git rebase --abort
+  422  git status
+  423  g:
+  424  d:
+  425  cd d
+  426  cd git_batch_26_11/
+  427  git log --oneline --graph --decorate
+  428  git log
+  429  cd ..
+  430  mkdir dh
+  431  cd dh/
+  432  git init
+  433  touch test
+  434  git status
+  435  git add .
+  436  git status
+  437  git commit -m "v1"
+  438  git log --oneline --graph --decorate
+  439  git reflog
+  440  vi test
+  441  git status
+  442  git add .
+  443  git commit -m "v2"
+  444  git status
+  445  git log --oneline --graph --decorate
+  446  git reflog
+  447  cat .git/config 
+  448  cat /etc/
+  449  cd /etc/
+  450  ls
+  451  cd ..
+  452  ls
+  453  cd
+  454  ls
+  455  cd d
+  456  cd git_batch_26_11/
+  457  ls
+  458  git diff --staged data_imp.txt
+  459  vi data_imp.txt 
+  460  git diff --staged data_imp.txt
+  461  git add .
+  462  git diff --staged data_imp.txt
+  463  git diff  data_imp.txt
+  464  git commit -m "new"
+  465  git log --oneline
+  466  vi data_imp.txt 
+  467  git add .
+  468  git commit -m "new_1"
+  469  git log --oneline
+  470  git show eb0adc6:data_imp.txt
+  471  git show fd55f24:data_imp.txt
+  472  git show HEAD~2:data_imp.txt
+  473  git show HEAD:data_imp.txt
+  474  git show HEAD~1:data_imp.txt
+  475  git show HEAD:data_imp.txt
+  476  git show HEAD~1:data_imp.txt
+  477  git show HEAD~2:data_imp.txt
+  478  git show HEAD@{2019-01-05}:data_imp.txt
+  479  ls
+  480  git show HEAD@{2019-01-05}:imp.rb
+  481  git log -1 --format=%cd imp.rb
+  482  git log -1 --format=%cd data_imp.txt
+  483  git log -2 --format=%cd data_imp.txt
+  484  git log -5 --format=%cd data_imp.txt
+  485  pwd
+  486  pwd
+  487  mkdir mfon
+  488  cd d:
+  489  cd mfon/
+  490  git init
+  491  ls -a
+  492  touch index.html
+  493  git status
+  494  git log
+  495  git add .
+  496  git status
+  497  git commit -m "v1"
+  498  git status
+  499  git log
+  500  git --version
+  501  cd d:
+  502  pwd
+  503  mkdir 14jangit
+  504  cd 14jangit/
+  505  pwd
+  506  ls
+  507  git init
+  508  ls -a
+  509  cd .git/
+  510  ls
+  511  cd ..
+  512  pwd
+  513  cat > demo.txt
+  514  ls
+  515  cat demo.txt 
+  516  git status
+  517  git add demo.txt 
+  518  git status
+  519  git commit -m "v1.0" 
+  520  cat demo.txt 
+  521  git status
+  522  git config --global -list
+  523  git config --global --list
+  524  git config --global user.name "ajay"
+  525  git config --global user.email "ajay.cs@hotmail.com"
+  526  git config --global --list
+  527  git log
+  528  nano index.html
+  529  cat index.html 
+  530  vi index.html
+  531  git status
+  532  ls
+  533  vi index.html 
+  534  git status
+  535  git add .
+  536  git status
+  537  ls
+  538  cat demo.txt 
+  539  cat index.html 
+  540  vi index.html 
+  541  git status
+  542  git add .
+  543  git status
+  544  cat index.html 
+  545  git commit -m "first commit"
+  546  git status
+  547  ls
+  548  vi index.html 
+  549  git status
+  550  cat index.html 
+  551  git diff index.html
+  552  git diff index.html
+  553  cat index.html 
+  554  git diff --staged index.html
+  555  git add .
+  556  git diff --staged index.html
+  557  git diff index.html
+  558  git commit -m "v2"
+  559  git diff --staged index.html
+  560  cat index.html 
+  561  git diff index.html
+  562  history 
+  563  git status
+  564  vi index.html 
+  565  git status
+  566  git coomit -am "final version
+  567  git coomit -am "final version"
+  568  git commit -am "final version"
+  569  ls
+  570  ls -a 
+  571  git log
+  572  vi index.html 
+  573  git commit -am "new version"
+  574  git log
+  575  ls
+  576  git log --oneline
+  577  git log --oneline index.html
+  578  git log --oneline demo.txt
+  579  git reflog 
+  580  git reflog  index.html
+  581  cat index.html 
+  582  git show HEAD~2:index.html
+  583  git show HEAD~1:index.html
+  584  git show HEAD~3:index.html
+  585  cd .git/
+  586  ls
+  587  cd objects/
+  588  ls
+  589  cd ..
+  590  cat HEAD 
+  591  ls
+  592  cd .
+  593  cd ..
+  594  ls
+  595  git reflog  index.html
+  596  git show 9b5db3f:index.html
+  597  git show b6ad3ed:index.html
+  598  ls
+  599  vi .gitignore
+  600  git status
+  601  git commit -am "v1"
+  602  git status
+  603  git add .
+  604  git commit -m "v1"
+  605  git status
+  606  cat .gitignore 
+  607  touch temp.doc
+  608  git status
+  609  ls
+  610  git status
+  611  history > git_output
